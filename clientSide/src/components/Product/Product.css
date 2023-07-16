@@ -1,0 +1,159 @@
+.categories{
+    padding: 50px;
+    margin: 40px;
+    margin-top: 60px;
+}
+
+.categories{
+    display: flex;
+    margin-top: -30px;
+}
+
+.design{
+    padding:50px;
+    border-radius: 120px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.design > img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 120px; */
+    margin-left: -115px;
+    /* margin-top: -30px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.design:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.design:hover::after {
+    opacity: 1;
+   
+}
+
+.flower{
+    /* border: 2px solid green; */
+    padding:50px;
+    border-radius: 120px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+.flower > img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 120px; */
+    margin-left: -100px;
+    /* margin-top: -30px; */
+}
+.flower:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.flower:hover::after {
+    opacity: 1;
+   
+}
+
+.hangingbells > img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 120px; */
+    margin-left: 50px;
+    /* margin-top: -30px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.hangingbells:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.hangingbells:hover::after {
+    opacity: 1;
+   
+}
+
+.naturalpots >img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 120px; */
+    margin-left: 140px;
+    /* margin-top: -30px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.naturalpots:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.naturalpots:hover::after {
+    opacity: 1;
+   
+}
+.animaldesign > img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 120px; */
+    margin-left: 100px;
+    /* margin-top: -30px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.animaldesign:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.animaldesign:hover::after {
+    opacity: 1;
+   
+}
+.animaldesign{
+    /* border: 2px solid green; */
+    padding:50px;
+    border-radius: 120px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.animal:hover::after {
+    opacity: 1;
+   
+}
+.animal > img{
+    width: 150px;
+    height: 150px;
+    /* border-radius: 120px; */
+    margin-left: 175px;
+    /* margin-top:40px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.animal:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+
+.one{
+    margin-left: 70px;
+    margin-top: -120px;
+}
+.two{
+    margin-left: 300px;
+    margin-top: -40px;
+}
+.three{
+    margin-left: 38%;
+    margin-top: -40px;
+}
+.four{
+    margin-left: 54%;
+    margin-top: -40px;
+}
+.five{
+    margin-left: 69%;
+    margin-top: -40px;
+}
+.six{
+    margin-left: 85%;
+    margin-top: -40px; 
+}

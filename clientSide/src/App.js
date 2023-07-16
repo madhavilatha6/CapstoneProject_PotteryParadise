@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar/NavBar';
+import Footer from './components/Footer/Footer';
+import Products from './components/Product/Product';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the pottery paradise website</h1>
-      <h1>madhavilatha</h1>
+      {/* <Navbar /> */}
+      {/* <Footer /> */}
+      <Products />
     </div>
   );
 }

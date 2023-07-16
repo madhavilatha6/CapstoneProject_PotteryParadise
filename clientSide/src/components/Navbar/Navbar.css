@@ -1,0 +1,41 @@
+.navigation{
+    display: flex;
+}
+
+.navigation  >  p{
+    margin-left: 110px;
+    font-size: 18px;
+}
+
+#home{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#home:hover{
+    text-decoration: none;
+    color: red;
+}
+
+Link:hover{
+    color: red;
+}
+
+#categary{
+    margin-top: 50px;
+}
+
+#aboutus{
+    margin-top: 50px;
+}
+
+#contactus{
+    margin-top: 50px;
+}
+
+.addtocart{
+    width: 60px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
