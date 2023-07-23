@@ -1,18 +1,19 @@
 import React from 'react';
-import './Routes.css';
 import Navbar from '../Navbar/NavBar';
 import Footer from '../Footer/Footer';
 import Products from '../Product/Product';
-// import { Router } from 'express'
+import { Route , Routes} from 'react-router-dom';
 
-function Routes() {
+function Routess() {
   return (
     <div className="App">
       <Navbar />
-      <Products />
+      <Routes>
+          <Route path='/product' element={<Products />}/>
+      </Routes>
       <Footer />
     </div>
   );
 }
 
-export default Routes;
+export default Routess;

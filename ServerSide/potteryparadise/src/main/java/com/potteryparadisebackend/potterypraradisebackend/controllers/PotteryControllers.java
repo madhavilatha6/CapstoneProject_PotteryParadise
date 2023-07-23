@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/information")
+@RequestMapping("/Information")
 public class PotteryControllers {
     @Autowired
     PotteryService potteryService;
@@ -28,8 +28,8 @@ public class PotteryControllers {
     }
 
     @DeleteMapping("/delete/{id}")
-    public String deleteProduct(@PathVariable Integer id) {
-        return potteryService.deleteProduct(id);
+    public String deleteProduct(@PathVariable Product product) {
+        return potteryService.deleteProduct(product);
     }
 
 }

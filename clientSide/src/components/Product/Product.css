@@ -3,7 +3,7 @@
     margin: 40px;
     margin-top: 60px;
     display: flex;
-    margin-top: -30px;
+    margin-top: -70px;
 }
 
 .design{
@@ -19,7 +19,6 @@
     height: 200px;
     border-radius: 45px 10px 45px 10px;
     margin-left: -115px;
-    /* margin-top: -30px; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .design:hover {
@@ -32,7 +31,6 @@
 }
 
 .flower{
-    /* border: 2px solid green; */
     padding:50px;
     border-radius: 120px;
     margin: 20px;
@@ -42,10 +40,8 @@
 .flower > img{
     width: 200px;
     height: 200px;
-    /* border-radius: 120px; */
     margin-left: -100px;
     border-radius: 45px 10px 45px 10px;
-    /* margin-top: -30px; */
 }
 .flower:hover {
     transform: scale(1.2, 1.2);
@@ -105,7 +101,6 @@
    
 }
 .animaldesign{
-    /* border: 2px solid green; */
     padding:50px;
     border-radius: 120px;
     margin: 20px;
@@ -120,7 +115,6 @@
 .animal > img{
     width: 200px;
     height: 200px;
-    /* border-radius: 120px; */
     margin-left: 22px;
     border-radius: 45px 10px 45px 10px;
     margin-top:70px;
@@ -156,3 +150,37 @@
     margin-top: -40px; 
 }
 
+.search{
+    width: 250px;
+    height: 40px;
+    margin-top: -30px;
+    margin-left: 50px;
+    border: 2px solid #79c2d0; 
+}
+.searchLogo{
+    border: 2px solid #79c2d0; 
+    background-color: #79c2d0;
+    padding: 10px;
+    margin-top: -30px;
+    color: azure;
+    margin-left: 20px;
+}
+.searchPart{
+    display: flex;
+}
+#option{
+    margin-left: 500px;
+    margin-top: -65px;
+    padding: 20px;
+}
+#option > select{
+    padding: 11px;
+    font-size: 16px;
+    border: 2px solid #79c2d0; 
+    background-color: #79c2d0;
+    color: azure;
+}
+#select:hover{
+    border: 2px solid #79c2d0; 
+    background-color: #79c2d0;
+}

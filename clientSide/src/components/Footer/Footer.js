@@ -15,13 +15,13 @@ function Footer(){
                         <p>Vision</p>
                         <p>Aim</p>
                     </div>
-                    <div className='contact'>
+                    <div className='service'>
                         <h4>Contactus</h4>
                         <p>Andrapradesh</p>
                         <p>Karnataka</p>
                         <p>Tamilnadu</p>
                     </div>
-                    <div className='social'>
+                    <div className='service'>
                         <h4>Socialmedia</h4>
                         <p>Facebook</p>
                         <p>WhatsApp</p>
