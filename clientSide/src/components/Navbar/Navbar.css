@@ -1,14 +1,17 @@
 .navigation{
     display: flex;
+    margin-left: 200px;
+    border: 1px solid gray;
+    /* width: 100%; */
 }
 
 .navigation  >  p{
-    margin-left: 110px;
+    margin-left:80px;
     font-size: 18px;
 }
 
 #home{
-    margin-left: 70px;
+    margin-left: 480px;
     margin-top: 50px;
 }
 
@@ -32,4 +35,8 @@ Link:hover{
     margin-left: 100px;
     margin-top: 25px;
 }
-
+.addtocart1{
+    width: 280px;
+    height: 100px;
+    margin-left: -200px;
+}

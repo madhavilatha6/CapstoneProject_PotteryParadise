@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 function Navbar(){
     return(
     <div className="navigation">
-        <img className="addtocart"src="res" alt="no image" />
+        <div>
+        <img className="addtocart1"src="resources/name2.png" alt="no image" />
+        </div>
         <p id="home">Home</p>
         <p id='categary'><Link to="/product">Category</Link></p>
         <p id="categary">About Us</p>
