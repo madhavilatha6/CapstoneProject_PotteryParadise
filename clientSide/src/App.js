@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Routess from './components/Routers/Routers';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the pottery paradise website</h1>
+      <Routess />
     </div>
   );
 }

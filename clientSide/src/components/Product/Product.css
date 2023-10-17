@@ -1,0 +1,239 @@
+.categories{
+    padding: 50px;
+    margin: 40px;
+    margin-top: 60px;
+    display: flex;
+    margin-top: -70px;
+}
+
+.design{
+    padding:50px;
+    border-radius: 120px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.design > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 45px 10px 45px 10px;
+    margin-left: -115px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.design:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.design:hover::after {
+    opacity: 1;
+   
+}
+
+.flower{
+    padding:50px;
+    border-radius: 120px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+.flower > img{
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    border-radius: 45px 10px 45px 10px;
+}
+.flower:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.flower:hover::after {
+    opacity: 1;
+   
+}
+
+.hangingbells > img{
+    width: 200px;
+    height: 200px;
+    margin-left: -40px;
+    margin-top: 70px;
+    border-radius: 45px 10px 45px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.hangingbells:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.hangingbells:hover::after {
+    opacity: 1;
+   
+}
+
+.naturalpots >img{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 45px 10px 45px 10px;
+    margin-top: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.naturalpots:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.naturalpots:hover::after {
+    opacity: 1;
+   
+}
+.animaldesign > img{
+    width: 200px;
+    height: 200px;
+    margin-left: -40px;
+    border-radius: 45px 10px 45px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.animaldesign:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+.animaldesign:hover::after {
+    opacity: 1;
+   
+}
+.animaldesign{
+    padding:50px;
+    border-radius: 120px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.animal:hover::after {
+    opacity: 1;
+   
+}
+.animal > img{
+    width: 200px;
+    height: 200px;
+    margin-left: 22px;
+    border-radius: 45px 10px 45px 10px;
+    margin-top:70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.animal:hover {
+    transform: scale(1.2, 1.2);
+  
+}
+
+.one{
+    margin-left: 70px;
+    margin-top: -120px;
+}
+.two{
+    margin-left: 300px;
+    margin-top: -40px;
+}
+.three{
+    margin-left: 38%;
+    margin-top: -40px;
+}
+.four{
+    margin-left: 54%;
+    margin-top: -40px;
+}
+.five{
+    margin-left: 69%;
+    margin-top: -40px;
+}
+.six{
+    margin-left: 85%;
+    margin-top: -40px; 
+}
+
+.search{
+    width: 250px;
+    height: 40px;
+    margin-top: -70px;
+    margin-left: 300px;
+    border: 2px solid #79c2d0; 
+}
+.searchLogo{
+    /* border: 2px solid #79c2d0; 
+    background-color: #79c2d0;
+    padding: 10px;
+    margin-top: -60px;
+    color: azure;
+    margin-left: 20px; */
+    background-color: #79c2d0;
+    width: 100px;
+    height: 40px;
+    margin-top: -65px;
+    margin-left: 10px;
+    border: 2px solid #79c2d0; 
+}
+.searchPart{
+    display: flex;
+}
+#option{
+    margin-left: 500px;
+    margin-top: -65px;
+    padding: 20px;
+}
+#option > select{
+    padding: 11px;
+    font-size: 16px;
+    border: 2px solid #79c2d0; 
+    background-color: #79c2d0;
+    color: azure;
+}
+#select:hover{
+    border: 2px solid #79c2d0; 
+    background-color: #79c2d0;
+}
+.array{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+    background-color: aliceblue;
+    margin-left: 330px;
+}
+.display{
+    border: 2px solid white;
+   width: 300px;
+   margin-top: 40px;
+   margin-left: 60px;
+    text-align: center;
+    border: 1px solid gray;
+    /* border-radius: 40px 0px 40px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.display img{
+    width: 300px;
+    height: 340px;
+    /* border-radius: 40px 0px 40px 0px; */
+}
+.sorting{
+    padding: 10px;
+     margin-left: -300px;
+     height: 50px;
+     width: 300px;
+     margin-top: 38px;
+     font-size: 18px;
+}
+.categorybox{
+    border: 1px solid gray;
+    height: 370px;
+    width: 300px;
+    margin-left: -300px;
+    transform: translateY(30px);
+}
+hr{
+    margin: 20px 30px 10px 30px;
+}
+.categorybox > p{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.font{
+    font-size: 22px;
+}
